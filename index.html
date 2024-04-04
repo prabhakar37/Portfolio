@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Kumar</title>
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+
+    <div id="wrapper" class="plx">
+            
+        <!--  container me NAV & HERO -->
+        <div class="navbar" id="nav">
+            <div class="nav-section container">
+
+                <div class="nav-logo">
+                    <a href=""> <img src="/images/1nav/3logo.png" alt="logo"> </a>
+                </div>
+
+                <div class="nav-links">
+                    <div><a href="#home" class="lik">Home</a></div>
+                    <div><a href="#proj" class="lik">Projects</a></div>
+                    <div><a href="#skills" class="lik">Skills</a></div>
+                    <div><a href="#contact" class="lik">Contact</a></div>
+
+                    <a href="#" id="menu-icon" onclick="openNav()">☰</a>
+                </div>
+
+                <!-- Side navigation menu -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero-section container" id="home">
+
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hello, Welcome</div>
+                <div class="hero-section-sub-heading hero-section-heading">I'm Prabhakar Kumar<span class="role"></span></div>
+                <div class="hero-section-decription">A Full-Stack Software Engineer from india.
+                    I design and &#60;code&#62;  responsive websites that help business to reach more customers. And also strong in Data Structure(DSA) & Communication.</div>
+
+                <div class="nav-links" id="hero-button"><a href="#hero-section">Resume</a></div>
+            </div>
+
+            <div class="hero-section-right">
+                <img src="./images/2hero/1hero.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="project-container container" id="proj">
+
+            <div class="project-header"><h2>Projects</h1></div>
+    
+            <div class="project-section">
+                <div class="project">
+                    <a href=""> <img src="./images/3proj/1proj.png" alt=""></a>
+                    <div class="project-name"><h2>Portfolio Website</h2></div>
+                    <div class="project-desc">Personal portfolio website using HTML, CSS, and JavaScript for frontend, and possibly a backend framework like Node.js with Express for contact form functionality. Include sections for bio, projects, skills, and contact information.
+                    </div>
+                </div>
+    
+    
+                <div class="project">
+                    <a href=""><img src="./images/3proj/2proj.png" alt=""></a>
+                    <div class="project-name"><h2>Amazon Clone</h2></div>
+                    <div class="project-desc">Build an Amazon clone using HTML, CSS, JS for frontend, and Node.js with Express for backend. Include user authentication, product listing, search, cart, and checkout. Integrate a database for data storage and third-party APIs for payment and shipping.</div>
+                </div>
+    
+    
+                <div class="project">
+                    <a href=""><img src="./images/3proj/3proj.png" alt=""></a>
+                    <div class="project-name"><h2>Virtual Mouse</h2></div>
+                    <div class="project-desc">Develop an AI-powered virtual mouse system utilize Python with libraries like OpenCV and TensorFlow. The system should track hand movements and gestures to control the mouse cursor on the screen, enabling hands-free interaction with devices.</div>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="skill-container  container" id="skills">
+            <div class="skill-header"> <h2>Skills</h2></div>
+
+            <div class="skill-section" id="">
+
+                <div class="skill-tech"> <img src="./images/4skill/1html.png" alt=""> <h3>HTML</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/2css.png" alt=""> <h3>CSS</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/3js.png" alt=""> <h3>JS</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/4bootstrap.png" alt=""> <h3>Bootstrap</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/5tailwind.png" alt=""> <h3>Tailwind</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/6react.png" alt=""> <h3>React</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/7node.png" alt=""> <h3>Node JS</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/8express.png" alt=""> <h3>Express</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/9c++.png" alt=""> <h3>C++</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/10python.png" alt=""> <h3>Python</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/11git.png" alt=""> <h3>Git</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/12github.png" alt=""> <h3>Github</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/13mysql.png" alt=""> <h3>SQL</h3>
+                </div>
+
+                <div class="skill-tech"> <img src="./images/4skill/14mongodb.png" alt=""> <h3>MongoDB</h3>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="contact-container container" id="contact">
+
+            <div class="contact-header"> <h2>Contact Us</h2></div>
+
+            <div class="contact-section">
+
+                <div class="contact-section-left">
+
+                    <div class="contact-img"> <img src="./images/2hero/2hero.png" alt=""></div>
+    
+                    <div class="contact-links">
+                        <a href=""> <img src="./images/5contact/1email.png" alt=""></a>
+                        <a href=""> <img src="./images/5contact/3linkedin.png" alt=""></a>
+                        <a href=""> <img src="./images/5contact/5github.png" alt=""></a>
+                    </div>
+    
+                </div>
+    
+                <div class="contact-section-right">
+    
+                    <form action="" name="submit-to-google-sheet">
+                        <div class="formfield-container">
+                            <label for="" class="fade-form-text">Name</label>
+                            <input type="text" name="Name">
+
+                            <label for="" class="fade-form-text">Email</label>
+                            <input type="text" name="Email">
+
+                            <label for="" class="fade-form-text">Subject</label>
+                            <input type="text" name="Subject">
+
+                            <label for="" class="fade-form-text">Message</label>
+                            <textarea rows="5" cols="20" type="text" name="Message">Your message..</textarea>
+                        </div>
+
+                        <div class="send-button">
+                            <button type="submit" >Send <img src="./images/5contact/send2.svg" alt=""></button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+    
+                </div>
+
+            </div>
+            
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="copyright"> <p>Design & Devlop by Prabhakar</p> </div>
+               
+                <div class="footer-links">
+                    <a href=""> <img src="./images/6footer/1facebook.png" alt=""></a>
+                    <a href=""> <img src="./images/6footer/4instagram.png" alt=""></a>
+                    <a href=""> <img src="./images/6footer/3youtube.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+<script>
+// Function to open the side navigation menu
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+// Function to close the side navigation menu
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyWhhifTpbQBa-CzkssP59Aqc4BN8ZbP2Qas4Uantqau2sR5Cn-xWH1pCeQW_KGwCU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
